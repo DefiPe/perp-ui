@@ -1,0 +1,133 @@
+.magicButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 40rem; /* Adjusted the margin */
+    width: 400px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 32px;
+    border: 1px solid #0A7CFF;
+    background: radial-gradient(70.71% 70.71% at 50% 50%, rgba(0, 0, 0, 0.50) 50.03%, #0A7CFF 100%), rgba(255, 255, 255, 0.10);
+}
+.magicButton p{
+    color: #FFF;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 133.333% */
+}
+
+.heroh2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 2rem; /* Adjusted the padding */
+    margin: 0.5rem 0; /* Lowered the margin even more */
+    text-align: center; /* Center the text */
+}
+
+.heroh2 p {
+    color: #A6AAB2;
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 100% */
+}
+
+.icon{
+    width: 24px; /* Adjust the width of the icon as needed */
+    height: 24px; /* Adjust the height of the icon as needed */
+    margin-right: 10px; /* Adjust the spacing between the icon and the text */
+}
+.container {
+    justify-content: space-around;
+    margin: 20px 0; /* Adjusted the margin */
+}
+
+.heroh1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 2rem; /* Adjusted the padding */
+    margin: 1rem 0; /* Adjusted the margin */
+}
+
+.heroh1 p {
+    text-align: center;
+    font-family: "Raleway";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 67.2px */
+    background: linear-gradient(90deg, #FFF 70.36%, rgba(255, 255, 255, 0.20) 85.78%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.heroTexts {
+    display: flex;
+    align-items: center; /* Center the items horizontally */
+    justify-content: center; /* Center the items vertically */
+    margin: 1.5rem 0; /* Adjusted the margin between hero2 and heroTexts */
+}
+
+.heroText {
+    display: flex;
+    align-items: center;
+    margin-right: 1.5rem; /* Adjusted the margin between the texts */
+}
+
+.textIcon {
+    width: 36px;
+height: 36px;
+    margin-right: 10px; /* Adjust the spacing between the icon and the text */
+}
+
+.heroText p {
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* Adjusted the line height */
+    color: #FFF;
+}
+.heroButtons {
+    display: flex;
+    justify-content: center; /* Center the buttons horizontally */
+    margin: 1rem 0; /* Adjusted the margin between heroTexts and heroButtons */
+}
+.button {
+    margin: 0 1rem; /* Adjusted the margin between the buttons */
+    padding: 10px 20px; /* Adjusted the padding for the buttons */
+    font-size: 16px; /* Adjusted the font size for the buttons */
+    border: none; /* Remove default button border */
+    cursor: pointer; /* Add pointer cursor */
+}
+
+.button:first-child {
+    display: flex;
+    max-width: 346.44px;
+    padding: 16px 28px 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+    border-radius: 48px;
+background: radial-gradient(70.71% 70.71% at 50% 50%, rgba(255, 255, 255, 0.12) 0%, rgba(0, 0, 0, 0.00) 100%), #0A7CFF;
+box-shadow: 0px 16px 32px -8px rgba(10, 124, 255, 0.48), 0px 4px 8px 0px rgba(10, 124, 255, 0.12), 0px 2px 6px 0px rgba(10, 124, 255, 0.24), 0px 1px 3px 0px rgba(10, 124, 255, 0.24), 1px 1px 2px 0px rgba(255, 255, 255, 0.24) inset;
+}
+
+.button:last-child {
+    display: flex;
+width: 164.94px;
+padding: 16px 28px 16px 24px;
+align-items: flex-start;
+gap: 12px;
+border-radius: 48px;
+background: radial-gradient(70.71% 70.71% at 50% 50%, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.00) 100%), rgba(255, 255, 255, 0.04);
+box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.06) inset, 1px 1px 0px 0px rgba(255, 255, 255, 0.08) inset, 0px 8px 40px -20px rgba(255, 255, 255, 0.20);
+}
